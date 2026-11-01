@@ -17,7 +17,7 @@ Explora el menú, juega a encontrar la estrella de la suerte y descubre dónde s
 
 <br><br>
 
-[🍓 **Mira el puesto**](#-mira-cómo-luce-el-puesto) &nbsp;·&nbsp; [🍦 **Menú**](#-el-tongari-de-hoy) &nbsp;·&nbsp; [⭐ **La suerte**](#-sale-estrella-otro-cono) &nbsp;·&nbsp; [🥄 **Prepara tu cono**](#-prepara-tu-propio-cono)
+[🍓 **Mira el puesto**](#-mira-cómo-luce-el-puesto) &nbsp;·&nbsp; [🍦 **Menú**](#-el-tongari-de-hoy) &nbsp;·&nbsp; [⭐ **La suerte**](#-sale-estrella-otro-cono) &nbsp;·&nbsp;
 
 <br>
 
