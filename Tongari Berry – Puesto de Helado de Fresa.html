@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tongari Berry – Puesto de Helado de Fresa</title>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--red:#c8202f;--gold:#f5c043;--brown:#3b231c;--pink:#e497aa;--cream:#fdf1e4;--card:#fffdfa;--txt:#3b231c;--soft:#7a5a4e;
+--f:"Fredoka","Arial Rounded MT Bold","Trebuchet MS",sans-serif;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--cream:#2a1812;--card:#3a2219;--txt:#fdf1e4;--soft:#d9bfb0}}
+:root[data-theme="dark"]{--cream:#2a1812;--card:#3a2219;--txt:#fdf1e4;--soft:#d9bfb0}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;font:500 17px/1.6 var(--f);color:var(--txt);background:var(--cream);overflow-x:hidden}
+h1,h2,h3{margin:0;font-weight:700;line-height:1.1}
+/* NAV: red bar, star logo, yellow pill CTA */
+nav{position:sticky;top:0;z-index:30;display:flex;align-items:center;gap:26px;padding:12px 5vw;padding-top:calc(12px + env(safe-area-inset-top,0px));background:var(--red);color:#fff}
+nav .logo{display:flex;align-items:center;gap:8px;font-weight:700;font-size:20px;color:#fff;text-decoration:none;margin-right:auto}
+nav .logo i{color:var(--gold);font-style:normal;display:inline-block;transition:transform .6s}
+nav .logo:hover i{transform:rotate(360deg) scale(1.3)}
+nav a.l{color:#fff;text-decoration:none;font-size:15px;opacity:.92}nav a.l:hover{opacity:1;text-decoration:underline wavy;text-underline-offset:5px}
+.pill{display:inline-flex;align-items:center;gap:8px;font:600 16px var(--f);border:3px solid #fff;color:#fff;background:transparent;border-radius:999px;padding:12px 30px;cursor:pointer;text-decoration:none;transition:transform .2s cubic-bezier(.3,1.8,.5,1)}
+.pill.gold{background:var(--gold);border-color:var(--gold);color:var(--brown)}
+.pill:hover{transform:translateY(-4px) scale(1.06) rotate(-2deg)}.pill:active{transform:scale(.94)}
+nav .pill{padding:7px 18px;font-size:14px;border:0;background:var(--gold);color:var(--brown)}
+@media(max-width:700px){nav a.l{display:none}}
+/* HERO */
+.hero{position:relative;min-height:calc(100vh - 60px);background:var(--red);color:#fff;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:70px 5vw 120px;overflow:hidden}
+.hero .small{font-size:12px;letter-spacing:.4em;opacity:.85}
+.hero h1{font-size:clamp(60px,13vw,170px);letter-spacing:.01em;margin:18px 0;text-shadow:0 8px 0 rgba(0,0,0,.14);text-transform:uppercase}
+.hero h1 span{display:inline-block;animation:bob 3.2s ease-in-out infinite}
+.hero h1 span:nth-child(even){animation-delay:-1.2s}
+.hero p{max-width:460px;margin:0 auto 34px;font-size:19px}
+.hero .btns{display:flex;gap:18px;flex-wrap:wrap;justify-content:center}
+.scroll{position:absolute;bottom:60px;font-size:11px;letter-spacing:.3em}
+.scroll::after{content:"";display:block;width:2px;height:44px;margin:8px auto 0;background:#fff;transform-origin:top;animation:line 1.8s ease-in-out infinite}
+@keyframes line{0%{transform:scaleY(0)}60%{transform:scaleY(1)}100%{transform:scaleY(1);opacity:0}}
+@keyframes bob{50%{transform:translateY(-12px) rotate(2deg)}}
+.deco{position:absolute;inset:0;pointer-events:none;z-index:0}
+.deco svg{position:absolute;pointer-events:auto;cursor:pointer;filter:drop-shadow(0 6px 0 rgba(0,0,0,.1));--st:#fff;--bf:rgba(255,255,255,.22);--sd:#ffffff99;--lf:#6d8a5c}
+.deco .solid{--bf:#c8202f;--sd:#fff}
+.hero>*:not(.deco){position:relative;z-index:1}
+.fl{animation:fl var(--d,6s) ease-in-out infinite}@keyframes fl{50%{translate:0 -20px}}
+.pop{animation:pp .6s cubic-bezier(.3,1.8,.5,1)}@keyframes pp{40%{scale:1.7;rotate:30deg}}
+/* WAVY SCALLOP between sections */
+.edge{height:26px;background:radial-gradient(circle at 13px 0,var(--c) 0 12px,transparent 12.5px) 0 0/26px 26px repeat-x}
+/* SLANTED RIBBON */
+.rib{position:relative;height:150px;margin-top:-52px;z-index:5;overflow:hidden}
+.rib div{position:absolute;left:-5%;width:110%;white-space:nowrap;font-weight:700;font-size:22px;padding:14px 0;overflow:hidden}
+.rib .a{background:var(--gold);color:var(--brown);transform:rotate(-2.2deg);top:56px;z-index:2;box-shadow:0 6px 0 rgba(0,0,0,.15)}
+.rib .b{background:var(--brown);color:var(--gold);transform:rotate(1.6deg);top:34px}
+.rib span{display:inline-block;animation:mq 26s linear infinite}.rib .b span{animation-direction:reverse}
+.rib:hover span{animation-play-state:paused}
+@keyframes mq{to{transform:translateX(-50%)}}
+/* SECTIONS */
+section{padding:100px 5vw;text-align:center}
+.wrapw{max-width:1000px;margin:auto}
+.chip{display:inline-block;border:2px solid currentColor;border-radius:999px;padding:3px 16px;font-size:12px;letter-spacing:.2em;margin-bottom:22px;font-weight:600}
+h2{font-size:clamp(40px,7vw,76px)}
+.lead{color:var(--soft);max-width:480px;margin:16px auto 56px}
+/* TILTED CARDS: brown outline, pink scallop top, hard shadow */
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:34px;text-align:center}
+.card{position:relative;background:var(--card);border:4px solid var(--brown);border-radius:26px;padding:56px 22px 28px;box-shadow:0 12px 0 var(--brown);overflow:hidden;opacity:0;transform:translateY(70px) rotate(var(--r,0deg));transition:opacity .7s,transform .7s cubic-bezier(.3,1.6,.5,1),box-shadow .3s;cursor:pointer}
+.card.in{opacity:1;transform:rotate(0)}
+.card.in:hover{transform:translateY(-14px) rotate(var(--r,3deg));box-shadow:0 22px 0 var(--brown)}
+.card::before{content:"";position:absolute;left:0;right:0;top:0;height:22px;background:radial-gradient(circle at 11px 0,var(--card) 0 7px,transparent 7.5px) 0 0/22px 22px repeat-x,var(--pink)}
+.card svg{width:96px;height:140px;transition:transform .6s cubic-bezier(.3,1.8,.5,1)}
+.card:hover svg{transform:translateY(-10px) rotate(-12deg) scale(1.12)}
+.card h3{font-size:24px;margin:10px 0 2px}.card small{display:block;font-size:11px;letter-spacing:.25em;color:var(--red);font-weight:600}
+.card p{font-size:14px;color:var(--soft);margin:12px 0 18px}
+.price{display:inline-block;background:var(--gold);color:var(--brown);border:3px solid var(--brown);border-radius:999px;padding:3px 22px;font-weight:700}
+.badge{position:absolute;top:30px;right:14px;background:var(--red);color:#fff;font-size:11px;font-weight:700;width:52px;height:52px;border-radius:50%;display:grid;place-items:center;transform:rotate(14deg);box-shadow:0 0 0 3px #fff,0 0 0 5px var(--red);line-height:1.1;animation:wig 2s ease-in-out infinite}
+@keyframes wig{50%{transform:rotate(-10deg) scale(1.1)}}
+/* LUCKY STAR (pink) */
+#lucky{background:var(--pink);color:var(--brown);position:relative}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:22px;margin-bottom:50px}
+.step{background:var(--cream);color:var(--brown);border:4px solid var(--brown);border-radius:18px;padding:22px;box-shadow:0 7px 0 var(--brown);transition:transform .3s cubic-bezier(.3,1.8,.5,1)}
+.step:hover{transform:translateY(-8px) rotate(-1.5deg)}
+.step b{display:inline-block;background:var(--red);color:#fff;border-radius:999px;padding:1px 14px;font-size:11px;letter-spacing:.2em}
+.step h3{margin:10px 0 4px;font-size:22px}.step p{margin:0;font-size:14px;color:var(--soft)}
+.try{background:var(--cream);border:4px solid var(--brown);border-radius:26px;box-shadow:0 8px 0 var(--brown);padding:34px 20px}
+.try h3{font-size:28px;color:var(--brown)}
+.try .row{display:flex;gap:34px;justify-content:center;margin:26px 0 10px;flex-wrap:wrap}
+.cn{width:100px;height:150px;background:none;border:0;cursor:pointer;position:relative;transition:transform .25s cubic-bezier(.3,1.8,.5,1)}
+.cn:hover{transform:translateY(-10px) rotate(-6deg)}
+.cn svg{width:100%;height:100%}
+.cn.tw{animation:tw .6s}@keyframes tw{25%{transform:rotate(-14deg)}75%{transform:rotate(14deg)}}
+.cn .rv{position:absolute;left:50%;top:-14px;width:46px;translate:-50% 0;animation:up .8s cubic-bezier(.3,1.8,.5,1)}
+@keyframes up{from{translate:-50% 40px;scale:0}}
+#res{min-height:34px;font-weight:700;color:var(--red);font-size:20px}
+.link{background:none;border:0;font:600 14px var(--f);color:var(--soft);text-decoration:underline;cursor:pointer}
+/* STAND SCHEDULE (brown) */
+#where{background:var(--brown);color:#fff;text-align:left;position:relative}
+#where .chip{color:var(--gold)}
+#where h2{font-size:clamp(36px,6vw,60px)}
+#where .lead{margin-left:0;color:#e8cdbc;margin-bottom:34px}
+.sch{max-width:720px;margin:0 auto 34px}
+.sch div{display:grid;grid-template-columns:90px 1fr auto;align-items:center;gap:14px;padding:18px 14px;border-bottom:2px dotted #8a6a5c;transition:background .3s,padding-left .3s}
+.sch div:hover{background:#5a3a1f;padding-left:26px}
+.sch b{color:var(--gold);font-size:26px}.sch strong{display:block;font-size:18px}.sch small{color:#cdb09f;font-size:13px}.sch em{font-style:normal;font-size:13px;font-weight:600}
+/* FOOTER */
+footer{background:var(--red);color:#fff;text-align:center;padding:90px 5vw 60px;position:relative;overflow:hidden}
+footer h2{font-size:clamp(46px,10vw,120px);text-transform:uppercase;text-shadow:0 6px 0 rgba(0,0,0,.14)}
+footer nav{all:unset;display:flex;gap:22px;justify-content:center;margin:20px 0;font-size:14px;flex-wrap:wrap}
+footer nav a{color:#fff}footer small{opacity:.8;font-size:12px;letter-spacing:.15em}
+.cf{position:fixed;z-index:60;pointer-events:none;width:28px;height:28px}
+/* ===== POLISH ===== */
+::selection{background:var(--gold);color:var(--brown)}
+#bar{position:fixed;top:0;left:0;height:5px;width:0;background:linear-gradient(90deg,var(--gold),#fff,var(--pink));z-index:80;border-radius:0 5px 5px 0}
+nav{box-shadow:0 4px 0 rgba(0,0,0,.14)}
+.pill{box-shadow:0 5px 0 rgba(0,0,0,.18)}.pill.gold{background:linear-gradient(#ffd466,var(--gold))}
+.hero{background:radial-gradient(circle at 50% 30%,#e8404d 0,var(--red) 52%,#9c121d 100%)}
+.hero::after{content:"";position:absolute;inset:0;background:radial-gradient(circle,rgba(255,255,255,.16) 2px,transparent 2.5px) 0 0/34px 34px;pointer-events:none;-webkit-mask:linear-gradient(#000,transparent 85%);mask:linear-gradient(#000,transparent 85%)}
+.hero h1{text-shadow:0 4px 0 #a31520,0 8px 0 #7d0f19,0 18px 30px rgba(0,0,0,.28)}
+.hc{width:clamp(90px,12vw,130px);height:auto;margin:4px 0 10px;--st:#fff;filter:drop-shadow(0 10px 0 rgba(0,0,0,.16));cursor:pointer;animation:wob 3.6s ease-in-out infinite}
+@keyframes wob{0%,100%{transform:rotate(-7deg)}50%{transform:rotate(7deg) translateY(-10px)}}
+.chip{box-shadow:0 3px 0 currentColor}
+h2::after{content:"";display:block;width:96px;height:8px;margin:16px auto 0;background:radial-gradient(circle at 4px 4px,var(--gold) 3px,transparent 3.5px) 0 0/16px 8px repeat-x}
+#where h2::after{margin-left:0}
+#menu{background:radial-gradient(circle,rgba(200,32,47,.09) 3px,transparent 3.5px) 0 0/40px 40px,var(--cream)}
+.card{background:linear-gradient(180deg,var(--card) 55%,color-mix(in srgb,var(--card) 82%,var(--pink)))}
+.card.in:hover{box-shadow:0 22px 0 var(--brown),0 30px 40px rgba(200,32,47,.25)}
+#lucky{background:radial-gradient(circle at 15% 8%,#f6bccb 0,transparent 42%),radial-gradient(circle at 88% 92%,#d4768d 0,transparent 42%),var(--pink)}
+#lucky::before{content:"★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★";position:absolute;top:14px;left:0;right:0;text-align:center;letter-spacing:1.4em;color:#fff;opacity:.7;animation:twk 2.4s ease-in-out infinite;pointer-events:none}
+@keyframes twk{50%{opacity:.15;transform:scale(1.04)}}
+#where{background:radial-gradient(circle at 85% 0,#5b392c 0,transparent 50%),var(--brown)}
+.sch b{text-shadow:0 3px 0 rgba(0,0,0,.3)}
+footer{background:linear-gradient(#c8202f,#a2121d)}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.card{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<symbol id="berry" viewBox="0 0 100 110"><path d="M50 102C20 92 6 62 13 42c6-15 27-12 37-8 10-4 31-7 37 8 7 20-7 50-37 60z" fill="var(--bf,#c8202f)" stroke="var(--st,#3b231c)" stroke-width="5"/><path d="M50 36 36 14l12 9 2-17 4 17 12-9z" fill="var(--lf,#5c9a46)" stroke="var(--st,#3b231c)" stroke-width="3" stroke-linejoin="round"/><g fill="var(--sd,#fff)"><ellipse cx="32" cy="52" rx="3" ry="4.5"/><ellipse cx="50" cy="48" rx="3" ry="4.5"/><ellipse cx="68" cy="52" rx="3" ry="4.5"/><ellipse cx="40" cy="70" rx="3" ry="4.5"/><ellipse cx="60" cy="70" rx="3" ry="4.5"/><ellipse cx="50" cy="88" rx="3" ry="4.5"/></g></symbol>
+<symbol id="cone" viewBox="0 0 80 120"><path d="M14 62 66 62 40 116Z" fill="var(--wf,#4a2a1f)" stroke="var(--st,#3b231c)" stroke-width="4" stroke-linejoin="round"/><path d="M26 74 48 70M30 86 44 82M34 98 42 95" stroke="#fff8" stroke-width="2.5" stroke-linecap="round"/><path d="M14 62Q8 50 24 46Q16 36 30 32Q28 20 40 8Q52 20 50 32Q64 36 56 46Q72 50 66 62Z" fill="var(--sw,#e8899f)" stroke="var(--st,#3b231c)" stroke-width="4" stroke-linejoin="round"/></symbol>
+<symbol id="star" viewBox="0 0 100 100"><path d="M50 6l13 29 31 3-23 21 7 31-28-16-28 16 7-31L6 38l31-3z" fill="var(--sf,#f5c043)" stroke="var(--st,#3b231c)" stroke-width="6" stroke-linejoin="round"/></symbol>
+</svg>
+
+<nav>
+  <a class="logo" href="#top"><i>★</i> Tongari Berry</a>
+  <a class="l" href="#menu">Menú</a><a class="l" href="#lucky">Cómo funciona la suerte</a><a class="l" href="#where">Dónde estamos</a>
+  <a class="pill" href="#lucky">Saca tu estrella ★</a>
+</nav>
+
+<header class="hero" id="top">
+  <div class="deco" id="deco"></div>
+  <div class="small">PUESTO DE HELADO DE FRESA ★ DESDE 2026</div>
+  <div id="bar"></div>
+  <h1 id="title">Tongari<br>Berry</h1>
+  <svg class="hc" id="hc" viewBox="0 0 80 120" aria-label="Cono de helado"><use href="#cone"/></svg>
+  <p>Un bocado a la vez, un poquito de suerte. Si aparece una estrella en el fondo de tu cono, te llevas otro gratis.</p>
+  <div class="btns"><a class="pill" href="#menu">Menú de hoy ★</a><a class="pill gold" href="#lucky">Cómo funciona la suerte ☆</a></div>
+  <div class="scroll">DESLIZA</div>
+</header>
+
+<div class="rib"><div class="b"><span class="mq"></span></div><div class="a"><span class="mq"></span></div></div>
+
+<section id="menu" style="padding-top:60px">
+  <div class="wrapw">
+    <span class="chip">EL CONO DE HOY</span>
+    <h2>El Tongari de hoy.</h2>
+    <p class="lead">Helado suave en espiral con punta, servido a la temperatura perfecta. El cono se hornea fresco cada mañana.</p>
+    <div class="cards">
+      <div class="card" style="--r:-4deg"><div class="badge">SUERTE<br>★</div><svg viewBox="0 0 80 120"><use href="#cone"/></svg><h3>Tongari Fresa</h3><small>FRESA</small><p>Helado suave de fresa pura con una espiral bien puntiaguda.</p><span class="price">$9.900</span></div>
+      <div class="card" style="--r:3deg"><svg viewBox="0 0 80 120" style="--sw:#4a2a1f;--st:#3b231c"><use href="#cone"/></svg><h3>Tongari Choco</h3><small>CHOCOLATE</small><p>Espiral de cacao intenso, hecha para mantenerse firme hasta el último bocado.</p><span class="price">$9.900</span></div>
+      <div class="card" style="--r:-3deg"><svg viewBox="0 0 80 120"><use href="#cone" style="--sw:#fbe3e6"/></svg><h3>Mezcla Twist</h3><small>TWIST</small><p>Dos sabores enrollados juntos. Cada bocado sabe diferente.</p><span class="price">$10.900</span></div>
+    </div>
+  </div>
+</section>
+
+<div class="edge" style="--c:var(--pink);background-color:var(--cream)"></div>
+<section id="lucky" style="padding-top:60px">
+  <div class="wrapw">
+    <span class="chip">ESTRELLA DE LA SUERTE</span>
+    <h2>¿Sale estrella? Otro cono.</h2>
+    <p class="lead">Algunos conos esconden una estrella en el fondo. Termina el tuyo, encuentra la estrella y el siguiente va por la casa.</p>
+    <div class="steps">
+      <div class="step"><b>PASO 01</b><h3>Elige</h3><p>Escoge cualquier cono. Todos pueden guardar una sorpresa.</p></div>
+      <div class="step"><b>PASO 02</b><h3>Disfruta</h3><p>Con calma. Los bocados lentos revelan la estrella.</p></div>
+      <div class="step"><b>PASO 03</b><h3>Muestra</h3><p>Enseña la estrella en la ventanilla y llévate un cono gratis.</p></div>
+    </div>
+    <div class="try"><h3>Pruébalo aquí también.</h3><p style="color:var(--soft);margin:4px 0 0">Toca un cono y descubre si la estrella está dentro.</p>
+      <div class="row" id="row"></div><div id="res"></div><button class="link" id="again">Intentar de nuevo</button></div>
+  </div>
+</section>
+
+<div class="edge" style="--c:var(--brown);background-color:var(--pink)"></div>
+<section id="where">
+  <div class="wrapw">
+    <span class="chip">DÓNDE NOS ESTACIONAMOS</span>
+    <h2>El puesto esta semana.</h2>
+    <p class="lead">Busca la carpa roja. Los días de lluvia, descansamos.</p>
+    <div class="sch">
+      <div><b>SÁB</b><span><strong>Casco Antiguo · Calle del Portal</strong><small>Junto a la torre del reloj</small></span><em>11:00 – 18:00</em></div>
+      <div><b>DOM</b><span><strong>Colina Estrella · Plaza de las Cometas</strong><small>Al lado de la fuente</small></span><em>10:00 – 17:00</em></div>
+      <div><b>MIÉ</b><span><strong>Avenida del Sol · Zona Norte</strong><small>Cerca de la salida de la estación</small></span><em>15:00 – 19:00</em></div>
+      <div><b>VIE</b><span><strong>Cerro del Templo · Entrada del santuario</strong><small>Bajo los faroles rojos</small></span><em>12:00 – 18:00</em></div>
+    </div>
+    <p style="text-align:center"><a class="pill gold" href="#top">Ver las paradas de la semana ☆</a></p>
+  </div>
+</section>
+
+<footer>
+  <div class="deco" id="deco2"></div>
+  <h2 style="position:relative">Tongari Berry</h2>
+  <nav><a href="#menu">Menú</a><a href="#lucky">Cómo funciona la suerte</a><a href="#where">Dónde estamos</a><a href="#top">Contacto</a></nav>
+  <small>© 2026 TONGARI BERRY · MARCA FICTICIA · NO ES UN SITIO OFICIAL</small>
+</footer>
+
+<script>
+const $=s=>document.querySelector(s),rm=matchMedia("(prefers-reduced-motion:reduce)").matches,NS="http://www.w3.org/2000/svg";
+const VB={berry:"0 0 100 110",cone:"0 0 80 120",star:"0 0 100 100"};
+function sp(id,w,cls){const s=document.createElementNS(NS,"svg");s.setAttribute("viewBox",VB[id]);s.style.width=w+"px";s.innerHTML=`<use href="#${id}"/>`;if(cls)s.setAttribute("class",cls);return s}
+// Outlined floating berries, cones and stars with parallax + click pop
+function scatter(box,n,solid){const it=[];for(let i=0;i<n;i++){const t=["berry","cone","star","berry"][i%4],s=sp(t,t==="star"?34+Math.random()*20:50+Math.random()*60,"fl"+(solid&&i%2?" solid":""));
+  s.style.left=Math.random()*92+"%";s.style.top=Math.random()*88+"%";s.style.rotate=(Math.random()*50-25)+"deg";
+  s.style.setProperty("--d",(4+Math.random()*4)+"s");if(t==="star")s.style.setProperty("--sf","#f58a3a");if(t==="cone"&&i%2)s.style.setProperty("--sw","rgba(255,255,255,.25)");
+  s.dataset.k=(.015+Math.random()*.045).toFixed(3);
+  s.addEventListener("pointerdown",e=>{s.classList.remove("pop");void s.getBoundingClientRect();s.classList.add("pop");burst(e.clientX,e.clientY,6)});
+  box.appendChild(s);it.push(s)}return it}
+const items=scatter($("#deco"),14,true);scatter($("#deco2"),8,false);
+addEventListener("pointermove",e=>{if(rm)return;const x=e.clientX-innerWidth/2,y=e.clientY-innerHeight/2;items.forEach(s=>s.style.transform=`translate(${x*s.dataset.k}px,${y*s.dataset.k}px)`)});
+addEventListener("scroll",()=>{$("#bar").style.width=(scrollY/(document.documentElement.scrollHeight-innerHeight)*100)+"%";if(rm)return;items.forEach((s,i)=>s.style.rotate=((i%2?1:-1)*scrollY*.12)+"deg")},{passive:true});
+// Split title into letters that bob
+const t=$("#title");t.innerHTML=t.innerHTML.split("<br>").map(w=>[...w].map(c=>`<span>${c}</span>`).join("")).join("<br>");
+// Confetti
+function burst(x,y,n=12){for(let i=0;i<n;i++){const c=sp(i%2?"berry":"star",26,"cf");c.style.left=x+"px";c.style.top=y+"px";c.style.setProperty("--st","#fff");document.body.appendChild(c);
+  const a=Math.random()*6.28,r=60+Math.random()*130;c.animate([{transform:"translate(0,0) rotate(0)",opacity:1},{transform:`translate(${Math.cos(a)*r}px,${Math.sin(a)*r+90}px) rotate(${Math.random()*600}deg)`,opacity:0}],{duration:900+Math.random()*500,easing:"cubic-bezier(.2,.8,.4,1)"}).onfinish=()=>c.remove()}}
+// Ribbon text
+document.querySelectorAll(".mq").forEach((m,i)=>m.innerHTML=(i?"★ ESTRELLA DE LA SUERTE ADENTRO &nbsp; ★ HELADO DE FRESA &nbsp; ★ HORNEADO FRESCO CADA MAÑANA &nbsp; ":"TONGARI BERRY &nbsp; ★ UN BOCADO, UN POCO DE SUERTE &nbsp; ★ ENCUENTRA LA ESTRELLA, LLÉVATE OTRO CONO &nbsp; ").repeat(8));
+// Staggered card reveal
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}}),{threshold:.25});
+document.querySelectorAll(".card").forEach((c,i)=>{c.style.transitionDelay=i*.15+"s";io.observe(c)});
+// Lucky cone game
+const row=$("#row"),res=$("#res");let lucky,done;
+function reset(){row.innerHTML="";res.textContent="";done=false;lucky=Math.floor(Math.random()*3);
+  [["#e8899f","#fff"],["#4a2a1f","#fff"],["#fbe3e6","#fff"]].forEach((c,i)=>{const b=document.createElement("button");b.className="cn";b.setAttribute("aria-label","Cono "+(i+1));
+    b.innerHTML=`<svg viewBox="0 0 80 120" style="--sw:${c[0]}"><use href="#cone"/></svg>`;
+    b.onclick=()=>{if(done||b.dataset.o)return;b.dataset.o=1;b.classList.add("tw");const r=b.getBoundingClientRect();
+      if(i===lucky){done=true;b.insertAdjacentElement("afterbegin",sp("star",46,"rv"));res.textContent="★ ¡Qué suerte! Otro cono va por la casa. ★";burst(r.left+r.width/2,r.top+30,34)}
+      else{const x=sp("berry",40,"rv");b.insertAdjacentElement("afterbegin",x);res.textContent="Solo fresa esta vez… ¡prueba otro!"}};row.appendChild(b)})}
+$("#again").onclick=reset;reset();
+$("#hc").onclick=e=>burst(e.clientX,e.clientY,18);
+</script>
+</body>
+</html>
