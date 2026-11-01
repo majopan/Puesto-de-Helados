@@ -17,7 +17,7 @@
 
 <p align="center">
   <img
-    src="https://github.com/user-attachments/assets/45df6b75-6e39-4188-8d2f-9d89e2519c37"
+    src="https://github.com/majopan/Puesto-de-Helados/issues/3#issue-6144126744"
     width="100%"
     alt="Pantalla de inicio de Tongari Berry"
   />
