@@ -4,9 +4,8 @@
 
 <br>
 
-### ★ Un bocado a la vez, un poquito de suerte ★
-
-*Si aparece una estrella en el fondo de tu cono, te llevas otro gratis.*
+**Aplicación web frontend hecha con React que simula un puesto de helados.**<br>
+Explora el menú, juega a encontrar la estrella de la suerte y descubre dónde se estaciona la carpa roja esta semana.
 
 <br>
 
@@ -18,53 +17,52 @@
 
 <br><br>
 
-[🍦 **Menú**](#-el-tongari-de-hoy) &nbsp;·&nbsp; [⭐ **Cómo funciona la suerte**](#-estrella-de-la-suerte) &nbsp;·&nbsp; [🎨 **Estilo**](#-paleta-y-estilo) &nbsp;·&nbsp; [🚀 **Instalación**](#-instalación-y-ejecución)
+[🍓 **Mira el puesto**](#-mira-cómo-luce-el-puesto) &nbsp;·&nbsp; [🍦 **Menú**](#-el-tongari-de-hoy) &nbsp;·&nbsp; [⭐ **La suerte**](#-sale-estrella-otro-cono) &nbsp;·&nbsp; [🥄 **Prepara tu cono**](#-prepara-tu-propio-cono)
+
+<br>
+
+<img src="./assets/divider.svg" alt="" width="420">
 
 </div>
 
-<p align="center">★ ☆ ★ ☆ ★ ☆ ★ ☆ ★</p>
-
-## 📸 Vista previa
-
-<div align="center">
-
-`PANTALLA DE INICIO`
-
-</div>
+## 🍓 Mira cómo luce el puesto
 
 <p align="center">
+  <img src="./assets/window-bar.svg" alt="" width="100%"><br>
   <img
     src="https://github.com/user-attachments/assets/60ac38e0-b9f3-4520-b395-7d65f35ff84d"
     width="100%"
     alt="Pantalla de inicio de Tongari Berry"
-  />
+  /><br>
+  <sub>🏠 <b>La entrada de la carpa:</b> pantalla de inicio</sub>
 </p>
 
-<div align="center">
-
-`DEMOSTRACIÓN`
-
-</div>
+<br>
 
 <p align="center">
+  <img src="./assets/window-bar.svg" alt="" width="100%"><br>
   <img
     src="https://github.com/user-attachments/assets/b17d9a82-0714-4664-94d0-59ba3902a54e"
     width="100%"
     alt="Demostración de Tongari Berry"
-  />
+  /><br>
+  <sub>🎬 <b>En acción:</b> animaciones, navegación y minijuego</sub>
 </p>
 
-<p align="center">★ ☆ ★ ☆ ★ ☆ ★ ☆ ★</p>
+<div align="center">
+<br>
+<img src="./assets/divider.svg" alt="" width="420">
+</div>
 
-## 📖 Acerca del proyecto
+## 🍧 Un puesto, una estrella
 
-**Tongari Berry** es la web de un puesto de helado de fresa: conos con espiral puntiaguda, una estrella de la suerte escondida en el fondo y una carpa roja que cambia de lugar cada semana. Todo en una interfaz juguetona, animada y 100% responsive.
+**Tongari Berry** es la web de un puesto de helado de fresa: conos con espiral puntiaguda, una estrella escondida en el fondo y una carpa roja que cambia de lugar cada semana. Todo en una interfaz juguetona, animada y 100% responsive.
 
 Nació como práctica de desarrollo frontend, aplicando arquitectura basada en componentes, reutilización de código, manejo de estados con Hooks y diseño adaptable a cualquier pantalla.
 
 > 🍓 Funciona completamente en el navegador, con datos locales. Sin backend, sin base de datos, sin complicaciones.
 
-### 🎯 Objetivos
+### 🎯 Lo que quise lograr
 
 - ⭐ Aplicar los fundamentos de React y JavaScript moderno.
 - 🧩 Construir una arquitectura de componentes reutilizables.
@@ -72,15 +70,12 @@ Nació como práctica de desarrollo frontend, aplicando arquitectura basada en c
 - 📱 Lograr un diseño responsive de verdad.
 - 🧹 Mantener un código ordenado y fácil de mantener.
 
-<p align="center">★ ☆ ★ ☆ ★ ☆ ★ ☆ ★</p>
-
 <div align="center">
-
-`EL CONO DE HOY`
-
+<br>
+<img src="./assets/divider.svg" alt="" width="420">
 </div>
 
-## 🍦 El Tongari de hoy
+## 🍦 El Tongari de hoy.
 
 Helado suave en espiral con punta, servido a la temperatura perfecta. El cono se hornea fresco cada mañana.
 
@@ -107,15 +102,12 @@ Helado suave en espiral con punta, servido a la temperatura perfecta. El cono se
   </tr>
 </table>
 
-<p align="center">★ ☆ ★ ☆ ★ ☆ ★ ☆ ★</p>
-
 <div align="center">
-
-`ESTRELLA DE LA SUERTE`
-
+<br>
+<img src="./assets/divider.svg" alt="" width="420">
 </div>
 
-## ⭐ Estrella de la suerte
+## ⭐ ¿Sale estrella? Otro cono.
 
 Algunos conos esconden una estrella en el fondo. Termina el tuyo, encuentra la estrella y el siguiente va por la casa.
 
@@ -141,15 +133,12 @@ Algunos conos esconden una estrella en el fondo. Termina el tuyo, encuentra la e
 
 > 🎮 **¿Y en la web?** También hay un minijuego: tocas uno de los tres conos y descubres si la estrella estaba adentro. ¡Si sale, lluvia de confeti! 🎉
 
-<p align="center">★ ☆ ★ ☆ ★ ☆ ★ ☆ ★</p>
-
 <div align="center">
-
-`LO QUE TRAE LA WEB`
-
+<br>
+<img src="./assets/divider.svg" alt="" width="420">
 </div>
 
-## ✨ Características principales
+## 🎪 Lo que trae la carpa
 
 | | Característica | Descripción |
 |:---:|---|---|
@@ -165,19 +154,16 @@ Algunos conos esconden una estrella en el fondo. Termina el tuyo, encuentra la e
 | ♿ | **Accesible** | Respeta `prefers-reduced-motion` para quien prefiere menos animaciones. |
 | 📱 | **Responsive** | Móvil, tablet y escritorio. |
 
-<p align="center">★ ☆ ★ ☆ ★ ☆ ★ ☆ ★</p>
-
 <div align="center">
-
-`EL LOOK`
-
+<br>
+<img src="./assets/divider.svg" alt="" width="420">
 </div>
 
-## 🎨 Paleta y estilo
+## 🎨 Receta de estilo
 
 Un estilo de dulcería: colores planos, bordes gruesos, sombras duras y bordes festoneados como la carpa del puesto.
 
-| Color | Código | Uso |
+| Color | Variable | Uso |
 |:---:|:---:|---|
 | ![rojo](https://img.shields.io/badge/%23c8202f-c8202f?style=for-the-badge) | `--red` | Rojo fresa: barra de navegación, hero y footer. |
 | ![dorado](https://img.shields.io/badge/%23f5c043-f5c043?style=for-the-badge) | `--gold` | Dorado estrella: botones, precios y cintas. |
@@ -187,9 +173,12 @@ Un estilo de dulcería: colores planos, bordes gruesos, sombras duras y bordes f
 
 **Tipografía:** [Fredoka](https://fonts.google.com/specimen/Fredoka), redondeada y amistosa, con pesos de 400 a 700.
 
-<p align="center">★ ☆ ★ ☆ ★ ☆ ★ ☆ ★</p>
+<div align="center">
+<br>
+<img src="./assets/divider.svg" alt="" width="420">
+</div>
 
-## 🛠️ Tecnologías utilizadas
+## 🧁 Los ingredientes
 
 | | Tecnología | Para qué |
 |:---:|---|---|
@@ -201,45 +190,53 @@ Un estilo de dulcería: colores planos, bordes gruesos, sombras duras y bordes f
 | 🪝 | **React Hooks** | Estado y lógica de los componentes. |
 | 🌿 | **Git y GitHub** | Control de versiones y repositorio. |
 
-<p align="center">★ ☆ ★ ☆ ★ ☆ ★ ☆ ★</p>
+<div align="center">
+<br>
+<img src="./assets/divider.svg" alt="" width="420">
+</div>
 
-## 🚀 Instalación y ejecución
+## 🥄 Prepara tu propio cono
 
-**Requisitos previos:** Node.js 18 o superior, npm y Git.
+Solo necesitas **Node.js 18 o superior**, **npm** y **Git**.
 
-**1. Clona el repositorio**
+**`PASO 01`** &nbsp; Clona el repositorio
 
 ```bash
 git clone https://github.com/majopan/Puesto-de-Helados.git
 ```
 
-**2. Entra al proyecto**
+**`PASO 02`** &nbsp; Entra al proyecto
 
 ```bash
 cd Puesto-de-Helados
 ```
 
-**3. Instala las dependencias**
+**`PASO 03`** &nbsp; Instala las dependencias
 
 ```bash
 npm install
 ```
 
-**4. Arranca el servidor de desarrollo**
+**`PASO 04`** &nbsp; Arranca el servidor de desarrollo
 
 ```bash
 npm run dev
 ```
 
-**5. Genera la versión de producción**
+**`PASO 05`** &nbsp; Genera la versión de producción
 
 ```bash
 npm run build
 ```
 
-<p align="center">★ ☆ ★ ☆ ★ ☆ ★ ☆ ★</p>
+> 🍦 Abre la dirección que aparece en la terminal y ¡a buscar la estrella!
 
-## 📌 Alcance del proyecto
+<div align="center">
+<br>
+<img src="./assets/divider.svg" alt="" width="420">
+</div>
+
+## 🚧 Receta simple: solo frontend
 
 Tongari Berry es una aplicación **exclusivamente frontend**:
 
@@ -249,7 +246,7 @@ Tongari Berry es una aplicación **exclusivamente frontend**:
 - ✅ Los datos de los productos viven en el propio código.
 - ✅ Todo funciona directamente en el navegador.
 
-## 🔮 Posibles mejoras futuras
+## 🔮 Próximos sabores
 
 - [ ] 🛒 Carrito de compras.
 - [ ] 🏷️ Filtros por categoría y sabor.
@@ -258,9 +255,12 @@ Tongari Berry es una aplicación **exclusivamente frontend**:
 - [ ] 🗄️ Backend para administrar productos y pedidos.
 - [ ] 👤 Autenticación y gestión de usuarios.
 
-<p align="center">★ ☆ ★ ☆ ★ ☆ ★ ☆ ★</p>
+<div align="center">
+<br>
+<img src="./assets/divider.svg" alt="" width="420">
+</div>
 
-## 👩🏻‍💻 Autora
+## 🍨 Quién hornea los conos
 
 <div align="center">
 
@@ -272,7 +272,7 @@ Desarrolladora de Software · Frontend Developer
 
 </div>
 
-## 📄 Licencia
+## 📜 Reglas de la casa
 
 Este proyecto se encuentra bajo la licencia **MIT**. Consulta el archivo `LICENSE` para más información.
 
