@@ -17,7 +17,7 @@
 
 <p align="center">
   <img
-    src="https://github.com/user-attachments/assets/60ac38e0-b9f3-4520-b395-7d65f35ff84d"
+    src="https://github.com/user-attachments/assets/45df6b75-6e39-4188-8d2f-9d89e2519c37"
     width="100%"
     alt="Pantalla de inicio de Tongari Berry"
   />
