@@ -39,7 +39,6 @@ export default function Hero() {
         <a className="pill" href="#menu">Menú de hoy ★</a>
         <a className="pill gold" href="#lucky">Cómo funciona la suerte ☆</a>
       </div>
-      <div className="scroll">DESLIZA</div>
     </header>
   );
 }
