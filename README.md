@@ -138,46 +138,6 @@ Algunos conos esconden una estrella en el fondo. Termina el tuyo, encuentra la e
 <img src="./assets/divider.svg" alt="" width="420">
 </div>
 
-## 🎪 Lo que trae la carpa
-
-| | Característica | Descripción |
-|:---:|---|---|
-| 🏠 | **Hero animado** | Título que rebota letra por letra, con conos, fresas y estrellas flotando de fondo. |
-| 🖱️ | **Efecto parallax** | Los elementos decorativos siguen el mouse y rotan al hacer scroll. |
-| 🎉 | **Confeti interactivo** | Toca una fresa, una estrella o el cono y estalla en confeti. |
-| 🏷️ | **Cinta en marquesina** | Dos cintas inclinadas con mensajes que se desplazan sin parar. |
-| 🍦 | **Tarjetas inclinadas** | Aparecen escalonadas al hacer scroll y se levantan al pasar el cursor. |
-| 🎮 | **Minijuego de la suerte** | Tres conos, una sola estrella. ¿Cuál la esconde? |
-| 📅 | **Dónde estamos** | Paradas y horarios del puesto durante la semana. |
-| 📊 | **Barra de progreso** | Una línea de colores que avanza mientras recorres la página. |
-| 🌙 | **Modo oscuro automático** | Se adapta a la preferencia de tu sistema. |
-| ♿ | **Accesible** | Respeta `prefers-reduced-motion` para quien prefiere menos animaciones. |
-| 📱 | **Responsive** | Móvil, tablet y escritorio. |
-
-<div align="center">
-<br>
-<img src="./assets/divider.svg" alt="" width="420">
-</div>
-
-## 🎨 Receta de estilo
-
-Un estilo de dulcería: colores planos, bordes gruesos, sombras duras y bordes festoneados como la carpa del puesto.
-
-| Color | Variable | Uso |
-|:---:|:---:|---|
-| ![rojo](https://img.shields.io/badge/%23c8202f-c8202f?style=for-the-badge) | `--red` | Rojo fresa: barra de navegación, hero y footer. |
-| ![dorado](https://img.shields.io/badge/%23f5c043-f5c043?style=for-the-badge) | `--gold` | Dorado estrella: botones, precios y cintas. |
-| ![cacao](https://img.shields.io/badge/%233b231c-3b231c?style=for-the-badge) | `--brown` | Marrón cacao: texto, bordes y sombras duras. |
-| ![rosa](https://img.shields.io/badge/%23e497aa-e497aa?style=for-the-badge) | `--pink` | Rosa helado: sección de la suerte y detalles de las tarjetas. |
-| ![crema](https://img.shields.io/badge/%23fdf1e4-fdf1e4?style=for-the-badge) | `--cream` | Crema: fondo general. |
-
-**Tipografía:** [Fredoka](https://fonts.google.com/specimen/Fredoka), redondeada y amistosa, con pesos de 400 a 700.
-
-<div align="center">
-<br>
-<img src="./assets/divider.svg" alt="" width="420">
-</div>
-
 ## 🧁 Los ingredientes
 
 | | Tecnología | Para qué |
@@ -194,89 +154,6 @@ Un estilo de dulcería: colores planos, bordes gruesos, sombras duras y bordes f
 <br>
 <img src="./assets/divider.svg" alt="" width="420">
 </div>
-
-## 🥄 Prepara tu propio cono
-
-Solo necesitas **Node.js 18 o superior**, **npm** y **Git**.
-
-**`PASO 01`** &nbsp; Clona el repositorio
-
-```bash
-git clone https://github.com/majopan/Puesto-de-Helados.git
-```
-
-**`PASO 02`** &nbsp; Entra al proyecto
-
-```bash
-cd Puesto-de-Helados
-```
-
-**`PASO 03`** &nbsp; Instala las dependencias
-
-```bash
-npm install
-```
-
-**`PASO 04`** &nbsp; Arranca el servidor de desarrollo
-
-```bash
-npm run dev
-```
-
-**`PASO 05`** &nbsp; Genera la versión de producción
-
-```bash
-npm run build
-```
-
-> 🍦 Abre la dirección que aparece en la terminal y ¡a buscar la estrella!
-
-<div align="center">
-<br>
-<img src="./assets/divider.svg" alt="" width="420">
-</div>
-
-## 🚧 Receta simple: solo frontend
-
-Tongari Berry es una aplicación **exclusivamente frontend**:
-
-- 🚫 Sin backend.
-- 🚫 Sin base de datos.
-- 🚫 Sin autenticación de usuarios.
-- ✅ Los datos de los productos viven en el propio código.
-- ✅ Todo funciona directamente en el navegador.
-
-## 🔮 Próximos sabores
-
-- [ ] 🛒 Carrito de compras.
-- [ ] 🏷️ Filtros por categoría y sabor.
-- [ ] 🔍 Búsqueda de productos.
-- [ ] 🔌 Conectar con una API.
-- [ ] 🗄️ Backend para administrar productos y pedidos.
-- [ ] 👤 Autenticación y gestión de usuarios.
-
-<div align="center">
-<br>
-<img src="./assets/divider.svg" alt="" width="420">
-</div>
-
-## 🍨 Quién hornea los conos
-
-<div align="center">
-
-**María José Jiménez Díaz**
-
-Desarrolladora de Software · Frontend Developer
-
-<a href="https://github.com/majopan"><img src="https://img.shields.io/badge/GitHub-@majopan-c8202f?style=for-the-badge&logo=github&logoColor=white&labelColor=3b231c" alt="GitHub de majopan"></a>
-
-</div>
-
-## 📜 Reglas de la casa
-
-Este proyecto se encuentra bajo la licencia **MIT**. Consulta el archivo `LICENSE` para más información.
-
-<br>
 
 <p align="center">
   <img src="./assets/footer.svg" alt="Tongari Berry — marca ficticia, no es un sitio oficial" width="100%">
