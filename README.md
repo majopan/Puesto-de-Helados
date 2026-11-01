@@ -1,19 +1,36 @@
-# 🍓 Tongari Berry — Puesto de Helados
+<div align="center">
 
-> Aplicación web frontend desarrollada con React que simula un puesto de helados. Permite explorar un catálogo de productos, consultar sus detalles y navegar por las diferentes vistas de la aplicación mediante una interfaz interactiva y responsive.
+<img src="./assets/banner.svg" alt="Tongari Berry — Puesto de helado de fresa" width="100%">
 
-<p align="center">
-  <img src="https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react" alt="React 18">
-  <img src="https://img.shields.io/badge/Vite-5-646CFF?style=for-the-badge&logo=vite" alt="Vite 5">
-  <img src="https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="MIT License">
-</p>
+<br>
 
----
+### ★ Un bocado a la vez, un poquito de suerte ★
+
+*Si aparece una estrella en el fondo de tu cono, te llevas otro gratis.*
+
+<br>
+
+<img src="https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=61DAFB&labelColor=3b231c" alt="React 18">
+<img src="https://img.shields.io/badge/Vite-5-646CFF?style=for-the-badge&logo=vite&logoColor=white&labelColor=3b231c" alt="Vite 5">
+<img src="https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=F7DF1E&labelColor=3b231c" alt="JavaScript">
+<img src="https://img.shields.io/badge/CSS3-Fredoka-c8202f?style=for-the-badge&logo=css3&logoColor=white&labelColor=3b231c" alt="CSS3">
+<img src="https://img.shields.io/badge/Licencia-MIT-f5c043?style=for-the-badge&labelColor=3b231c" alt="Licencia MIT">
+
+<br><br>
+
+[🍦 **Menú**](#-el-tongari-de-hoy) &nbsp;·&nbsp; [⭐ **Cómo funciona la suerte**](#-estrella-de-la-suerte) &nbsp;·&nbsp; [🎨 **Estilo**](#-paleta-y-estilo) &nbsp;·&nbsp; [🚀 **Instalación**](#-instalación-y-ejecución)
+
+</div>
+
+<p align="center">★ ☆ ★ ☆ ★ ☆ ★ ☆ ★</p>
 
 ## 📸 Vista previa
 
-### 🏠 Pantalla de inicio
+<div align="center">
+
+`PANTALLA DE INICIO`
+
+</div>
 
 <p align="center">
   <img
@@ -23,7 +40,11 @@
   />
 </p>
 
-### 🎬 Demostración de la aplicación
+<div align="center">
+
+`DEMOSTRACIÓN`
+
+</div>
 
 <p align="center">
   <img
@@ -33,129 +54,230 @@
   />
 </p>
 
----
+<p align="center">★ ☆ ★ ☆ ★ ☆ ★ ☆ ★</p>
 
 ## 📖 Acerca del proyecto
 
-**Tongari Berry** es una aplicación frontend construida con React que representa un puesto de helados. Su propósito es ofrecer una experiencia visual e interactiva en la que los usuarios puedan descubrir diferentes productos, explorar sus características y navegar por las distintas secciones de la aplicación.
+**Tongari Berry** es la web de un puesto de helado de fresa: conos con espiral puntiaguda, una estrella de la suerte escondida en el fondo y una carpa roja que cambia de lugar cada semana. Todo en una interfaz juguetona, animada y 100% responsive.
 
-El proyecto fue desarrollado como práctica de desarrollo frontend, aplicando conceptos de arquitectura basada en componentes, reutilización de código, manejo de estados y diseño adaptable a diferentes dispositivos.
+Nació como práctica de desarrollo frontend, aplicando arquitectura basada en componentes, reutilización de código, manejo de estados con Hooks y diseño adaptable a cualquier pantalla.
 
-La aplicación funciona completamente en el cliente, utilizando datos locales para representar el catálogo de productos. No requiere conexión con un backend ni una base de datos.
+> 🍓 Funciona completamente en el navegador, con datos locales. Sin backend, sin base de datos, sin complicaciones.
 
 ### 🎯 Objetivos
 
-- Aplicar los fundamentos de React y JavaScript moderno.
-- Implementar una arquitectura basada en componentes reutilizables.
-- Desarrollar interfaces dinámicas e interactivas.
-- Practicar la navegación entre diferentes vistas.
-- Implementar un diseño responsive.
-- Mejorar la organización y mantenibilidad del código.
+- ⭐ Aplicar los fundamentos de React y JavaScript moderno.
+- 🧩 Construir una arquitectura de componentes reutilizables.
+- 🎬 Crear interfaces dinámicas con animaciones e interacciones.
+- 📱 Lograr un diseño responsive de verdad.
+- 🧹 Mantener un código ordenado y fácil de mantener.
 
----
+<p align="center">★ ☆ ★ ☆ ★ ☆ ★ ☆ ★</p>
+
+<div align="center">
+
+`EL CONO DE HOY`
+
+</div>
+
+## 🍦 El Tongari de hoy
+
+Helado suave en espiral con punta, servido a la temperatura perfecta. El cono se hornea fresco cada mañana.
+
+<table align="center">
+  <tr>
+    <td align="center" width="33%">
+      <h3>🍓 Tongari Fresa</h3>
+      <code>FRESA</code> &nbsp; ⭐ <code>SUERTE</code>
+      <p>Helado suave de fresa pura con una espiral bien puntiaguda.</p>
+      <b><code>$9.900</code></b>
+    </td>
+    <td align="center" width="33%">
+      <h3>🍫 Tongari Choco</h3>
+      <code>CHOCOLATE</code>
+      <p>Espiral de cacao intenso, hecha para mantenerse firme hasta el último bocado.</p>
+      <b><code>$9.900</code></b>
+    </td>
+    <td align="center" width="33%">
+      <h3>🌀 Mezcla Twist</h3>
+      <code>TWIST</code>
+      <p>Dos sabores enrollados juntos. Cada bocado sabe diferente.</p>
+      <b><code>$10.900</code></b>
+    </td>
+  </tr>
+</table>
+
+<p align="center">★ ☆ ★ ☆ ★ ☆ ★ ☆ ★</p>
+
+<div align="center">
+
+`ESTRELLA DE LA SUERTE`
+
+</div>
+
+## ⭐ Estrella de la suerte
+
+Algunos conos esconden una estrella en el fondo. Termina el tuyo, encuentra la estrella y el siguiente va por la casa.
+
+<table align="center">
+  <tr>
+    <td align="center" width="33%">
+      <code>PASO 01</code>
+      <h3>🍦 Elige</h3>
+      Escoge cualquier cono. Todos pueden guardar una sorpresa.
+    </td>
+    <td align="center" width="33%">
+      <code>PASO 02</code>
+      <h3>😋 Disfruta</h3>
+      Con calma. Los bocados lentos revelan la estrella.
+    </td>
+    <td align="center" width="33%">
+      <code>PASO 03</code>
+      <h3>⭐ Muestra</h3>
+      Enseña la estrella en la ventanilla y llévate un cono gratis.
+    </td>
+  </tr>
+</table>
+
+> 🎮 **¿Y en la web?** También hay un minijuego: tocas uno de los tres conos y descubres si la estrella estaba adentro. ¡Si sale, lluvia de confeti! 🎉
+
+<p align="center">★ ☆ ★ ☆ ★ ☆ ★ ☆ ★</p>
+
+<div align="center">
+
+`LO QUE TRAE LA WEB`
+
+</div>
 
 ## ✨ Características principales
 
-- 🍦 **Catálogo de productos:** visualización de los diferentes helados disponibles.
-- 🔍 **Detalle de productos:** consulta de información específica de cada producto.
-- 🧩 **Componentes reutilizables:** estructura modular para facilitar el mantenimiento.
-- 📱 **Diseño responsive:** adaptación a dispositivos móviles, tablets y escritorio.
-- 🧭 **Navegación entre vistas:** desplazamiento entre las diferentes secciones de la aplicación.
-- ⚡ **Interactividad:** manejo de estados y eventos mediante React Hooks.
-- 📦 **Datos locales:** información gestionada directamente desde el frontend.
+| | Característica | Descripción |
+|:---:|---|---|
+| 🏠 | **Hero animado** | Título que rebota letra por letra, con conos, fresas y estrellas flotando de fondo. |
+| 🖱️ | **Efecto parallax** | Los elementos decorativos siguen el mouse y rotan al hacer scroll. |
+| 🎉 | **Confeti interactivo** | Toca una fresa, una estrella o el cono y estalla en confeti. |
+| 🏷️ | **Cinta en marquesina** | Dos cintas inclinadas con mensajes que se desplazan sin parar. |
+| 🍦 | **Tarjetas inclinadas** | Aparecen escalonadas al hacer scroll y se levantan al pasar el cursor. |
+| 🎮 | **Minijuego de la suerte** | Tres conos, una sola estrella. ¿Cuál la esconde? |
+| 📅 | **Dónde estamos** | Paradas y horarios del puesto durante la semana. |
+| 📊 | **Barra de progreso** | Una línea de colores que avanza mientras recorres la página. |
+| 🌙 | **Modo oscuro automático** | Se adapta a la preferencia de tu sistema. |
+| ♿ | **Accesible** | Respeta `prefers-reduced-motion` para quien prefiere menos animaciones. |
+| 📱 | **Responsive** | Móvil, tablet y escritorio. |
 
----
+<p align="center">★ ☆ ★ ☆ ★ ☆ ★ ☆ ★</p>
+
+<div align="center">
+
+`EL LOOK`
+
+</div>
+
+## 🎨 Paleta y estilo
+
+Un estilo de dulcería: colores planos, bordes gruesos, sombras duras y bordes festoneados como la carpa del puesto.
+
+| Color | Código | Uso |
+|:---:|:---:|---|
+| ![rojo](https://img.shields.io/badge/%23c8202f-c8202f?style=for-the-badge) | `--red` | Rojo fresa: barra de navegación, hero y footer. |
+| ![dorado](https://img.shields.io/badge/%23f5c043-f5c043?style=for-the-badge) | `--gold` | Dorado estrella: botones, precios y cintas. |
+| ![cacao](https://img.shields.io/badge/%233b231c-3b231c?style=for-the-badge) | `--brown` | Marrón cacao: texto, bordes y sombras duras. |
+| ![rosa](https://img.shields.io/badge/%23e497aa-e497aa?style=for-the-badge) | `--pink` | Rosa helado: sección de la suerte y detalles de las tarjetas. |
+| ![crema](https://img.shields.io/badge/%23fdf1e4-fdf1e4?style=for-the-badge) | `--cream` | Crema: fondo general. |
+
+**Tipografía:** [Fredoka](https://fonts.google.com/specimen/Fredoka), redondeada y amistosa, con pesos de 400 a 700.
+
+<p align="center">★ ☆ ★ ☆ ★ ☆ ★ ☆ ★</p>
 
 ## 🛠️ Tecnologías utilizadas
 
-| Tecnología | Descripción |
-|---|---|
-| React 18 | Biblioteca para construir interfaces de usuario. |
-| JavaScript ES6+ | Lenguaje principal del proyecto. |
-| Vite 5 | Herramienta de desarrollo y compilación. |
-| React Router DOM | Navegación entre las diferentes vistas. |
-| CSS3 | Diseño y estilos de la interfaz. |
-| React Hooks | Manejo de estados y lógica de componentes. |
-| Git | Control de versiones. |
-| GitHub | Almacenamiento y gestión del repositorio. |
+| | Tecnología | Para qué |
+|:---:|---|---|
+| ⚛️ | **React 18** | Interfaz basada en componentes. |
+| 🟨 | **JavaScript ES6+** | Lenguaje principal del proyecto. |
+| ⚡ | **Vite 5** | Servidor de desarrollo y compilación. |
+| 🧭 | **React Router DOM** | Navegación entre vistas. |
+| 🎨 | **CSS3** | Estilos, animaciones y diseño responsive. |
+| 🪝 | **React Hooks** | Estado y lógica de los componentes. |
+| 🌿 | **Git y GitHub** | Control de versiones y repositorio. |
 
----
+<p align="center">★ ☆ ★ ☆ ★ ☆ ★ ☆ ★</p>
 
 ## 🚀 Instalación y ejecución
 
-### Requisitos previos
+**Requisitos previos:** Node.js 18 o superior, npm y Git.
 
-- Node.js 18 o superior.
-- npm.
-- Git.
-
-### 1. Clonar el repositorio
+**1. Clona el repositorio**
 
 ```bash
 git clone https://github.com/majopan/Puesto-de-Helados.git
 ```
 
-### 2. Ingresar al proyecto
+**2. Entra al proyecto**
 
 ```bash
 cd Puesto-de-Helados
 ```
 
-### 3. Instalar dependencias
+**3. Instala las dependencias**
 
 ```bash
 npm install
 ```
 
-### 4. Ejecutar el servidor de desarrollo
+**4. Arranca el servidor de desarrollo**
 
 ```bash
 npm run dev
 ```
 
-### 5. Generar versión de producción
+**5. Genera la versión de producción**
 
 ```bash
 npm run build
 ```
 
----
+<p align="center">★ ☆ ★ ☆ ★ ☆ ★ ☆ ★</p>
 
 ## 📌 Alcance del proyecto
 
-Tongari Berry es una aplicación exclusivamente frontend.
+Tongari Berry es una aplicación **exclusivamente frontend**:
 
-- No cuenta con un backend.
-- No utiliza una base de datos.
-- La información de los productos se administra mediante datos locales.
-- No dispone de autenticación de usuarios.
-- Su funcionamiento se realiza directamente desde el navegador.
-
----
+- 🚫 Sin backend.
+- 🚫 Sin base de datos.
+- 🚫 Sin autenticación de usuarios.
+- ✅ Los datos de los productos viven en el propio código.
+- ✅ Todo funciona directamente en el navegador.
 
 ## 🔮 Posibles mejoras futuras
 
-- Implementar un carrito de compras.
-- Incorporar filtros por categorías y sabores.
-- Agregar un sistema de búsqueda de productos.
-- Conectar la aplicación con una API.
-- Implementar un backend para administrar productos y pedidos.
-- Incorporar autenticación y gestión de usuarios.
+- [ ] 🛒 Carrito de compras.
+- [ ] 🏷️ Filtros por categoría y sabor.
+- [ ] 🔍 Búsqueda de productos.
+- [ ] 🔌 Conectar con una API.
+- [ ] 🗄️ Backend para administrar productos y pedidos.
+- [ ] 👤 Autenticación y gestión de usuarios.
 
----
+<p align="center">★ ☆ ★ ☆ ★ ☆ ★ ☆ ★</p>
 
 ## 👩🏻‍💻 Autora
 
+<div align="center">
+
 **María José Jiménez Díaz**
 
-Desarrolladora de Software | Frontend Developer
+Desarrolladora de Software · Frontend Developer
 
-- GitHub: [@majopan](https://github.com/majopan)
+<a href="https://github.com/majopan"><img src="https://img.shields.io/badge/GitHub-@majopan-c8202f?style=for-the-badge&logo=github&logoColor=white&labelColor=3b231c" alt="GitHub de majopan"></a>
 
----
+</div>
 
 ## 📄 Licencia
 
-Este proyecto se encuentra bajo la licencia MIT.
+Este proyecto se encuentra bajo la licencia **MIT**. Consulta el archivo `LICENSE` para más información.
 
-Consulta el archivo `LICENSE` para obtener más información.
+<br>
+
+<p align="center">
+  <img src="./assets/footer.svg" alt="Tongari Berry — marca ficticia, no es un sitio oficial" width="100%">
+</p>
