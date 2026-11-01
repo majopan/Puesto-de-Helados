@@ -15,11 +15,23 @@
 
 ### 🏠 Pantalla de inicio
 
-<img width="400" height="195" alt="Image" src="https://github.com/user-attachments/assets/60ac38e0-b9f3-4520-b395-7d65f35ff84d" />
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/60ac38e0-b9f3-4520-b395-7d65f35ff84d"
+    width="100%"
+    alt="Pantalla de inicio de Tongari Berry"
+  />
+</p>
 
 ### 🎬 Demostración de la aplicación
 
-<img width="400" height="194" alt="Image" src="https://github.com/user-attachments/assets/b17d9a82-0714-4664-94d0-59ba3902a54e" />
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/b17d9a82-0714-4664-94d0-59ba3902a54e"
+    width="100%"
+    alt="Demostración de Tongari Berry"
+  />
+</p>
 
 ---
 
@@ -66,6 +78,81 @@ La aplicación funciona completamente en el cliente, utilizando datos locales pa
 | React Hooks | Manejo de estados y lógica de componentes. |
 | Git | Control de versiones. |
 | GitHub | Almacenamiento y gestión del repositorio. |
+
+---
+
+## 🚀 Instalación y ejecución
+
+### Requisitos previos
+
+- Node.js 18 o superior.
+- npm.
+- Git.
+
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/majopan/Puesto-de-Helados.git
+```
+
+### 2. Ingresar al proyecto
+
+```bash
+cd Puesto-de-Helados
+```
+
+### 3. Instalar dependencias
+
+```bash
+npm install
+```
+
+### 4. Ejecutar el servidor de desarrollo
+
+```bash
+npm run dev
+```
+
+### 5. Generar versión de producción
+
+```bash
+npm run build
+```
+
+---
+
+## 📌 Alcance del proyecto
+
+Tongari Berry es una aplicación exclusivamente frontend.
+
+- No cuenta con un backend.
+- No utiliza una base de datos.
+- La información de los productos se administra mediante datos locales.
+- No dispone de autenticación de usuarios.
+- Su funcionamiento se realiza directamente desde el navegador.
+
+---
+
+## 🔮 Posibles mejoras futuras
+
+- Implementar un carrito de compras.
+- Incorporar filtros por categorías y sabores.
+- Agregar un sistema de búsqueda de productos.
+- Conectar la aplicación con una API.
+- Implementar un backend para administrar productos y pedidos.
+- Incorporar autenticación y gestión de usuarios.
+
+---
+
+## 👩🏻‍💻 Autora
+
+**María José Jiménez Díaz**
+
+Desarrolladora de Software | Frontend Developer
+
+- GitHub: [@majopan](https://github.com/majopan)
+
+---
 
 ## 📄 Licencia
 
