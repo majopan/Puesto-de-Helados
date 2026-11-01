@@ -15,15 +15,27 @@
 
 ### 🏠 Pantalla de inicio — Video demostrativo
 
-https://github.com/user-attachments/assets/60ac38e0-b9f3-4520-b395-7d65f35ff84d
+<p align="center">
+  <a href="https://github.com/majopan/Puesto-de-Helados/issues/3#issue-6144126744">
+    <img
+      src="https://github.com/user-attachments/assets/60ac38e0-b9f3-4520-b395-7d65f35ff84d"
+      width="100%"
+      alt="Ver video de la pantalla de inicio de Tongari Berry"
+    />
+  </a>
+</p>
+
+<p align="center">
+  <i>▶ Haz clic en la imagen para visualizar el video.</i>
+</p>
 
 ### 🎬 Demostración de la aplicación
 
 <p align="center">
   <img
     src="https://github.com/user-attachments/assets/b17d9a82-0714-4664-94d0-59ba3902a54e"
-    alt="Demostración de Tongari Berry"
     width="100%"
+    alt="Demostración de Tongari Berry"
   />
 </p>
 
